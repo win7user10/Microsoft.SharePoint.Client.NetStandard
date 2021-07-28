@@ -1,10 +1,10 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListDataSource", ValueObject = true, ServerTypeId = "{06bfe4a5-1516-4b55-a6d7-ecbe3ff7a3c8}")]
     public sealed class ListDataSource : ClientValueObject

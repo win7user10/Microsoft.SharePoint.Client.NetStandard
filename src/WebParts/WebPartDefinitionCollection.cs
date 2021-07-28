@@ -1,11 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore.WebParts
+namespace Microsoft.SharePoint.Client.NetStandard.WebParts
 {
     [ScriptType("SP.WebParts.WebPartDefinitionCollection", ServerTypeId = "{01c986b2-57a6-49fb-b8f1-df159f5b2349}")]
     public class WebPartDefinitionCollection : ClientObjectCollection<WebPartDefinition>

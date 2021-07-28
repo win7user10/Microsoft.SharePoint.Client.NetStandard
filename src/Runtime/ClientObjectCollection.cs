@@ -4,9 +4,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     public abstract class ClientObjectCollection : ClientObject, IEnumerable
     {

@@ -1,12 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.SharedWithUser", ValueObject = true, ServerTypeId = "{01d693d9-72c2-4531-9fb9-105c88b6706b}")]
     public sealed class SharedWithUser : ClientValueObject

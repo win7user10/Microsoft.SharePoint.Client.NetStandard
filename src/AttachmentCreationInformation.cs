@@ -1,13 +1,10 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.AttachmentCreationInformation", ValueObject = true, ServerTypeId = "{edf6309c-8142-4133-921e-4d6aec35550d}")]
     public class AttachmentCreationInformation : ClientValueObject

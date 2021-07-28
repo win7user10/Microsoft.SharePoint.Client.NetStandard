@@ -1,4 +1,4 @@
-﻿namespace Microsoft.SharePoint.Client.NetCore
+﻿namespace Microsoft.SharePoint.Client.NetStandard
 {
     public enum DraftVisibilityType
     {

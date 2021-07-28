@@ -1,8 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ViewFieldCollection", ServerTypeId = "{af975f76-8a94-4e6d-8325-bd1e20b7c301}")]
     public class ViewFieldCollection : ClientObjectCollection<string>

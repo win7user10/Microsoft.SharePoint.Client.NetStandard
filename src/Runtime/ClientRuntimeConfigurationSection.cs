@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+﻿namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     internal sealed class ClientRuntimeConfigurationSection //: ConfigurationSection
     {

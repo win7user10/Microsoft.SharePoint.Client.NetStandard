@@ -1,8 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.View", ServerTypeId = "{2399f45d-1784-4965-9a5f-a3415790a0d0}")]
     public class View : ClientObject

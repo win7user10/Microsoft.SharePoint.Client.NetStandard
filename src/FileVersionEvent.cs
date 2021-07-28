@@ -1,11 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.FileVersionEvent", ServerTypeId = "{478a36fe-cd3d-4f97-99da-d373d2c2e6e4}")]
     public class FileVersionEvent : ClientObject

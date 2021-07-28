@@ -1,11 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.FieldLinkCollection", ServerTypeId = "{6d87e76a-b8a8-4634-8170-082b1d454bfd}")]
     public class FieldLinkCollection : ClientObjectCollection<FieldLink>

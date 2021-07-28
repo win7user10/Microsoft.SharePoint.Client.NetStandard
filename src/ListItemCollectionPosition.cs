@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListItemCollectionPosition", ValueObject = true, ServerTypeId = "{922354eb-c56a-4d88-ad59-67496854efe1}")]
     public class ListItemCollectionPosition : ClientValueObject

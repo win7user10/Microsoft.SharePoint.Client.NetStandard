@@ -1,12 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.FolderCollectionAddParameters", ValueObject = true, ServerTypeId = "{80315927-dc9d-47d8-a95d-b776a33373be}")]
     public class FolderCollectionAddParameters : ClientValueObject

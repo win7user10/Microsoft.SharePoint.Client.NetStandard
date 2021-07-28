@@ -1,11 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore.Workflow
+namespace Microsoft.SharePoint.Client.NetStandard.Workflow
 {
     [ScriptType("SP.Workflow.WorkflowAssociation", ServerTypeId = "{5b590642-3966-4f67-b937-c1db8528a1d3}")]
     public sealed class WorkflowAssociation : ClientObject

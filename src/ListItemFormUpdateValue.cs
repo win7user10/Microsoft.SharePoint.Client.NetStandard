@@ -1,12 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListItemFormUpdateValue", ValueObject = true, ServerTypeId = "{03745a5a-2400-440e-92d6-dad4afee30a6}")]
     public class ListItemFormUpdateValue : ClientValueObject

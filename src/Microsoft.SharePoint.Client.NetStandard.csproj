@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionPrefix>0.0.2</VersionPrefix>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Laraue.SharePoint.Client.NetStandard</PackageId>
+    <Description>An .NET standard port of the SharePoint CSOM library (version "16.1.6216.1200") for SharePoint Online.</Description>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>

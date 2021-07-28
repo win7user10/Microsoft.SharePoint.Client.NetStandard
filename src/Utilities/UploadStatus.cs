@@ -1,11 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore.Utilities
+namespace Microsoft.SharePoint.Client.NetStandard.Utilities
 {
     [ScriptType("SP.Utilities.UploadStatus", ServerTypeId = "{b67bb458-2b47-4e3c-8a50-f7ae33a1d7d3}")]
     public class UploadStatus : ClientObject

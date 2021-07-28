@@ -1,12 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListItemCreationInformationUsingPath", ValueObject = true, ServerTypeId = "{b3776c4e-509d-4bed-983f-cddc43118e30}")]
     public class ListItemCreationInformationUsingPath : ClientValueObject

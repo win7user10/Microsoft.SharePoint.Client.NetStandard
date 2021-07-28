@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ContentTypeCreationInformation", ValueObject = true, ServerTypeId = "{168f3091-4554-4f14-8866-b20d48e45b54}")]
     public class ContentTypeCreationInformation : ClientValueObject

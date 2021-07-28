@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.IO;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListTemplate", ServerTypeId = "{d772ecd1-daa3-4cb1-9ea1-feea1e383fb2}")]
     public class ListTemplate : ClientObject

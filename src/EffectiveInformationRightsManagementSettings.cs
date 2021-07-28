@@ -1,11 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.EffectiveInformationRightsManagementSettings", ServerTypeId = "{7763bd9a-b98e-491d-82a8-252cbf76c64e}")]
     public sealed class EffectiveInformationRightsManagementSettings : ClientObject

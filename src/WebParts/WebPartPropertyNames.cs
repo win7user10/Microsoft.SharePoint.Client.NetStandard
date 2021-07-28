@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 
-namespace Microsoft.SharePoint.Client.NetCore.WebParts
+namespace Microsoft.SharePoint.Client.NetStandard.WebParts
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
     public static class WebPartPropertyNames

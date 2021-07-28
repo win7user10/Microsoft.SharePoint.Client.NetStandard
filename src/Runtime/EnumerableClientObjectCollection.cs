@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     internal class EnumerableClientObjectCollection<T> : IEnumerable<T>, IEnumerable
     {

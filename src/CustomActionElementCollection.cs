@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.CustomActionElementCollection", ValueObject = true, ServerTypeId = "{8085c8a0-ac08-44c8-ac9f-8a35540b34d1}")]
     public sealed class CustomActionElementCollection : ClientValueObjectCollection<CustomActionElement>

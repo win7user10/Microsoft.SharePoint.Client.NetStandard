@@ -1,13 +1,11 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.FileSaveBinaryInformation", ValueObject = true, ServerTypeId = "{c3de0784-43e6-4f12-bd0c-f0d9a34ebf93}")]
     public class FileSaveBinaryInformation : ClientValueObject

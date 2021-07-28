@@ -8,7 +8,7 @@ using System.Net;
 using System.Reflection;
 using System.Threading;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
   public class ClientRuntimeContext : IDisposable
   {

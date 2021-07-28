@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.VisualizationAppInfo", ValueObject = true, ServerTypeId = "{47684720-7a91-4db0-828a-50f42e8678bb}")]
     public class VisualizationAppInfo : ClientValueObject

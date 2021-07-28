@@ -1,7 +1,7 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.CreatablesInfo", ServerTypeId = "{9ec9b742-583b-4a15-b1e8-23c8e0d7b6df}")]
     public sealed class CreatablesInfo : ClientObject

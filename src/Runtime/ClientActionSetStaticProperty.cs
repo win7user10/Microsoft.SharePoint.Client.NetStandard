@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Xml;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     public sealed class ClientActionSetStaticProperty : ClientAction
     {

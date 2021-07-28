@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace Microsoft.SharePoint.Client.NetCoreIdcrl
+namespace Microsoft.SharePoint.Client.NetStandard.Idcrl
 {
     internal static class IdcrlUtility
     {

@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.RenderListDataParameters", ValueObject = true, ServerTypeId = "{ae2d69b3-12fa-4ecb-ba76-bba24d51e83d}")]
     public class RenderListDataParameters : ClientValueObject

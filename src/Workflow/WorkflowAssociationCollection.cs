@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore.Workflow
+namespace Microsoft.SharePoint.Client.NetStandard.Workflow
 {
     [ScriptType("SP.Workflow.WorkflowAssociationCollection", ServerTypeId = "{4e1196ea-ce71-4aa9-b3c0-3f8da05deec9}")]
     public class WorkflowAssociationCollection : ClientObjectCollection<WorkflowAssociation>

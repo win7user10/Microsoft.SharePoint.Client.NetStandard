@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
 
     [ScriptType("SP.RenderListDataOverrideParameters", ValueObject = true, ServerTypeId = "{ad0885e6-0f16-4694-9397-058c65376fb7}")]

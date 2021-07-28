@@ -1,8 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.InformationRightsManagementSettings", ServerTypeId = "{dc0556de-b544-4702-b2dc-9886ac31b25f}")]
     public sealed class InformationRightsManagementSettings : ClientObject

@@ -1,10 +1,6 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCoreMime
+namespace Microsoft.SharePoint.Client.NetStandard.Mime
 {
 
     internal static class SR

@@ -1,8 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListItemCollection", ServerTypeId = "{1722df25-a4d3-44bb-a1c6-04dbb90e9d91}")]
     public class ListItemCollection : ClientObjectCollection<ListItem>

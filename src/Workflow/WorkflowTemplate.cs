@@ -1,11 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore.Workflow
+namespace Microsoft.SharePoint.Client.NetStandard.Workflow
 {
 
     [ScriptType("SP.Workflow.WorkflowTemplate", ServerTypeId = "{36de6dbb-60d6-4131-b47f-e895798e1e93}")]

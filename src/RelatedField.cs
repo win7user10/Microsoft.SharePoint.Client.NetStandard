@@ -1,8 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.RelatedField", ServerTypeId = "{a91deb1a-2f24-4ac5-a1a6-3b1e530c307f}")]
     public class RelatedField : ClientObject

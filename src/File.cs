@@ -1,15 +1,13 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using Microsoft.SharePoint.Client.NetCore.Utilities;
-using Microsoft.SharePoint.Client.NetCore.WebParts;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
+using Microsoft.SharePoint.Client.NetStandard.Utilities;
+using Microsoft.SharePoint.Client.NetStandard.WebParts;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.File", ServerTypeId = "{df28be1e-74b5-4b21-b73a-2bbac0a23d8a}")]
     public class File : ClientObject

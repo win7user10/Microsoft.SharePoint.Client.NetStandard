@@ -1,17 +1,15 @@
-﻿using Microsoft.SharePoint.Client.NetCoreMime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Mime;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     public class ClientRequest
     {

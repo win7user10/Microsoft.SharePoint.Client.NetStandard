@@ -1,12 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using Microsoft.SharePoint.Client.NetCore.Workflow;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
+using Microsoft.SharePoint.Client.NetStandard.Workflow;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ContentType", ServerTypeId = "{91b5bd2d-e133-486f-b727-197ce5eb2c0d}")]
     public sealed class ContentType : ClientObject

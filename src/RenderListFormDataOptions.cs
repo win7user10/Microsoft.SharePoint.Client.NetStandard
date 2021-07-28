@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [Flags]
     public enum RenderListFormDataOptions

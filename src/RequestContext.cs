@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.SharePoint.Client.NetCore.Runtime;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.RequestContext", ServerTypeId = "{3747adcd-a3c3-41b9-bfab-4a64dd2f1e0a}")]
     internal sealed class RequestContext : ClientObject

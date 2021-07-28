@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text.RegularExpressions;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ContentTypeCollection", ServerTypeId = "{653e9412-6245-4a3f-829b-cfdbf7fd86a5}")]
     public sealed class ContentTypeCollection : ClientObjectCollection<ContentType>

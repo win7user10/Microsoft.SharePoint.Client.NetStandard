@@ -1,8 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCoreApplication;
-using System;
+﻿using System;
 using System.Net;
+using Microsoft.SharePoint.Client.NetStandard.Application;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
   internal class SharePointOnlineAuthenticationModule : ISharePointOnlineAuthenticationModule
   {

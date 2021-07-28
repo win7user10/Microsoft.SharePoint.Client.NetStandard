@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.SharePoint.Client.NetCore.Runtime;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text.RegularExpressions;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.GroupCollection", ServerTypeId = "{0b9f0e6c-2c15-425e-b0b2-961f78bf1ecf}")]
     public class GroupCollection : ClientObjectCollection<Group>

@@ -1,15 +1,13 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.ComponentModel;
 using System.IO;
-using System.Xml;
 using System.Net;
-using Microsoft.SharePoint.Client.NetCore.Workflow;
+using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
+using Microsoft.SharePoint.Client.NetStandard.Workflow;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.Web", ServerTypeId = "{a489add2-5d3a-4de8-9445-49259462dceb}")]
     public class Web : SecurableObject

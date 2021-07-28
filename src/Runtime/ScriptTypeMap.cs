@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Xml;
 using System.Reflection;
-using System.Runtime;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyModel;
-using Microsoft.DotNet.PlatformAbstractions;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     internal static class ScriptTypeMap
     {

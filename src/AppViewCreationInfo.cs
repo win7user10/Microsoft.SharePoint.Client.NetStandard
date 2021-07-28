@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.AppViewCreationInfo", ValueObject = true, ServerTypeId = "{52a8011d-98c5-466f-9cde-2e5ef9cc811b}")]
     public class AppViewCreationInfo : ClientValueObject

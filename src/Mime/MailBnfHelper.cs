@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace Microsoft.SharePoint.Client.NetCoreMime
+namespace Microsoft.SharePoint.Client.NetStandard.Mime
 {
     internal static class MailBnfHelper
     {

@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.CreatableItemInfo", ValueObject = true, ServerTypeId = "{e9797d9d-2304-4c12-bc6b-4a4e9d7a0ea6}")]
     public sealed class CreatableItemInfo : ClientValueObject

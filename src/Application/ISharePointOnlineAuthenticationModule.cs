@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Microsoft.SharePoint.Client.NetCoreApplication
+namespace Microsoft.SharePoint.Client.NetStandard.Application
 {
   /// <summary>Provides the base authentication interface for Web client authentication modules.</summary>
   public interface ISharePointOnlineAuthenticationModule

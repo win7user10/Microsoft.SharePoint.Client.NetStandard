@@ -1,10 +1,6 @@
-﻿using Microsoft.SharePoint.Client.NetCoreIdcrl;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.SharePoint.Client.NetStandard.Idcrl;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     internal static class SharePointOnlineAuthenticationProviderHelper
     {

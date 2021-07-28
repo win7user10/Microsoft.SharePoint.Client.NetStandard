@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.UserCustomActionCollection", ServerTypeId = "{70d1cb2d-d304-4d96-9b54-74b3f400fa28}")]
     public sealed class UserCustomActionCollection : ClientObjectCollection<UserCustomAction>

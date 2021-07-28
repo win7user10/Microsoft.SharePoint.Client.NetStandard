@@ -4,15 +4,13 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Xml.Linq;
+using System.Net;
 using System.Reflection;
 using System.Text;
 using System.Xml;
-using System.Net;
+using System.Xml.Linq;
 
-namespace Microsoft.SharePoint.Client.NetCore.Runtime
+namespace Microsoft.SharePoint.Client.NetStandard.Runtime
 {
     public sealed class JsonReader : IDisposable
     {

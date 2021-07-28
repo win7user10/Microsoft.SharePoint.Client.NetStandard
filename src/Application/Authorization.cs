@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Microsoft.SharePoint.Client.NetCoreApplication
+﻿namespace Microsoft.SharePoint.Client.NetStandard.Application
 {
   /// <summary>Contains an authentication message for an Internet server.</summary>
   public class SharePointAuthorization

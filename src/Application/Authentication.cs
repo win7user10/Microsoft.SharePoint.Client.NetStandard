@@ -1,10 +1,4 @@
-﻿using System;
-using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Microsoft.SharePoint.Client.NetCoreApplication
+﻿namespace Microsoft.SharePoint.Client.NetStandard.Application
 {
     //[GeneratedCode("wsdl", "2.0.50727.42"), DesignerCategory("code"), DebuggerStepThrough, WebServiceBinding(Name = "AuthenticationSoap", Namespace = "http://schemas.microsoft.com/sharepoint/soap/")]
     //public class Authentication : SoapHttpClientProtocol

@@ -1,8 +1,4 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.ComponentModel;
-
-namespace Microsoft.SharePoint.Client.NetCore
+﻿namespace Microsoft.SharePoint.Client.NetStandard
 {
     public enum ListExperience
     {

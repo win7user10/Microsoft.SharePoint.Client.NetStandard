@@ -1,10 +1,10 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListCreationInformation", ValueObject = true, ServerTypeId = "{e247b7fc-095e-4ea4-a4c9-c5d373723d8c}")]
     public class ListCreationInformation : ClientValueObject

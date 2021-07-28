@@ -1,10 +1,10 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.VisualizationStyleSet", ValueObject = true, ServerTypeId = "{ab366d26-be89-4814-b6e6-d9e45aff97bf}")]
     public class VisualizationStyleSet : ClientValueObject

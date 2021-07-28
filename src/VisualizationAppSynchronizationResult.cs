@@ -1,7 +1,7 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.VisualizationAppSynchronizationResult", ServerTypeId = "{ce91befa-b1c4-459e-bac5-18ceb35e037c}")]
     public class VisualizationAppSynchronizationResult : ClientObject

@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Microsoft.SharePoint.Client.NetCoreApplication
+namespace Microsoft.SharePoint.Client.NetStandard.Application
 {
     internal static class ValidationHelper
     {

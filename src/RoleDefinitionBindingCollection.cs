@@ -1,11 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.RoleDefinitionBindingCollection", ServerTypeId = "{07bf1941-6953-4761-b114-58374b4aaf57}")]
     public sealed class RoleDefinitionBindingCollection : ClientObjectCollection<RoleDefinition>

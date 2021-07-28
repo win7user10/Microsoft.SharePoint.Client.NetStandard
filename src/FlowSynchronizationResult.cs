@@ -1,7 +1,7 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.FlowSynchronizationResult", ServerTypeId = "{d9f77691-3136-41e7-8aac-0bfc7736d842}")]
     public class FlowSynchronizationResult : ClientObject

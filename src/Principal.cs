@@ -1,12 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using Microsoft.SharePoint.Client.NetCoreUtilities;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
+using Microsoft.SharePoint.Client.NetStandard.Utilities;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.Principal", ServerTypeId = "{8a76e712-17a1-4a40-b2df-cca7c060d78f}")]
     public class Principal : ClientObject

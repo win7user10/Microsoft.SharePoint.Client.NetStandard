@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Microsoft.SharePoint.Client.NetCoreUtilities
+namespace Microsoft.SharePoint.Client.NetStandard.Utilities
 {
     [Flags]
     public enum PrincipalType

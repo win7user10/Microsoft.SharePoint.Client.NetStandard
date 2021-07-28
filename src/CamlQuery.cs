@@ -1,11 +1,11 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Globalization;
 using System.Text;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.CamlQuery", ValueObject = true, ServerTypeId = "{3d248d7b-fc86-40a3-aa97-02a75d69fb8a}")]
     public class CamlQuery : ClientValueObject

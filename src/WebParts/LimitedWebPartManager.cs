@@ -1,11 +1,8 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore.WebParts
+namespace Microsoft.SharePoint.Client.NetStandard.WebParts
 {
     [ScriptType("SP.WebParts.LimitedWebPartManager", ServerTypeId = "{ac641ade-62df-49c9-af8e-abda6278e920}")]
     public sealed class LimitedWebPartManager : ClientObject

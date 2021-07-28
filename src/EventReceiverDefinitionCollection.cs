@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.EventReceiverDefinitionCollection", ServerTypeId = "{8aef5b03-f05e-46e9-9537-6c3aad574b7a}")]
     public class EventReceiverDefinitionCollection : ClientObjectCollection<EventReceiverDefinition>

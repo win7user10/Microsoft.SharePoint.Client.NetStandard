@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.EventReceiverDefinitionCreationInformation", ValueObject = true, ServerTypeId = "{2c15382f-b6e4-41f6-8616-4cbe0080a5de}")]
     public class EventReceiverDefinitionCreationInformation : ClientValueObject

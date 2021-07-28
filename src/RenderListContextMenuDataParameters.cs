@@ -1,9 +1,9 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Xml;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.RenderListContextMenuDataParameters", ValueObject = true, ServerTypeId = "{775a72c4-6d8f-457f-ad76-d2779ca29921}")]
     public class RenderListContextMenuDataParameters : ClientValueObject

@@ -1,8 +1,9 @@
 ﻿using Microsoft.SharePoint.Client.NetCore;
-using Microsoft.SharePoint.Client.NetCore.Runtime;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using Microsoft.SharePoint.Client.NetStandard;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information

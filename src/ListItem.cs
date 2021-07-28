@@ -1,12 +1,10 @@
-﻿using Microsoft.SharePoint.Client.NetCore.Runtime;
-using Microsoft.SharePoint.Client.NetCore.Utilities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.SharePoint.Client.NetStandard.Runtime;
+using Microsoft.SharePoint.Client.NetStandard.Utilities;
 
-namespace Microsoft.SharePoint.Client.NetCore
+namespace Microsoft.SharePoint.Client.NetStandard
 {
     [ScriptType("SP.ListItem", ServerTypeId = "{53cc48c0-1777-47b7-99ca-729390f06602}")]
     public class ListItem : SecurableObject
