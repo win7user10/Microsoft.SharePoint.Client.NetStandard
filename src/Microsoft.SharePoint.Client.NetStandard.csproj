@@ -3,8 +3,7 @@
   <PropertyGroup>
     <VersionPrefix>0.0.1</VersionPrefix>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Microsoft.SharePoint.Client.NetStandard</AssemblyName>
-    <PackageId>Microsoft.SharePoint.Client.NetStandard</PackageId>
+    <PackageId>Laraue.SharePoint.Client.NetStandard</PackageId>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
